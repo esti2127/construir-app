@@ -1,0 +1,23 @@
+<%  include ('templates/header') %>
+
+<main>
+
+  <section>
+
+  <% posts.forEach(post => { %>
+
+    <article>
+      <h3><%= post.title %></h3>
+      <p> <%= post.username %></p>
+
+    </article>
+
+  <% }) %>
+  
+  </section>
+</main>
+
+<%- include ('templates/footer') %>
+  
+
+

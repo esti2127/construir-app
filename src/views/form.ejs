@@ -1,0 +1,11 @@
+<%- include ('templates/header') %>
+
+  <form method="POST" action="/auth">
+
+    <div><%= nombre %> <input type='text' name='username'> </div>
+    <div><%= contraseña %> <input type='password' name='password'> </div>
+    <div> <input type='submit' value='Iniciar sesión'> </div>
+
+  </form>
+
+  <%- include ('templates/footer') %>
